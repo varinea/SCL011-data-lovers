@@ -1,38 +1,26 @@
-
-body{
-
-    background-image: url("https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png");
-
-}
-
-#tituloPag {
-
-text-align: center;
-
-}
-
-
-
 body {
-background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
-
- }
-
- .loGo {
-    width: 650px; 
-    height: 300px;
-    align-content: center;
-    display:block;
-    margin:auto;     
-
- }
-
- .morTy1 {
-    width: 600px; 
-    height: 600px;
-    align-content: center;
-    display:block; /* para centrar imagen */
-    margin:auto;
-
- }
-
+   background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
+    }
+   
+    .loGo {
+       width: 650px; 
+       height: 300px;
+       align-content: center;
+       display:block;
+       margin:auto;     
+    }
+   
+    .morTy1 {
+       width: 600px; 
+       height: 600px;
+       align-content: center;
+       display:block; /* para centrar imagen */
+       margin:auto;
+   
+    }
+   
+    button {
+      display:block; /* para centrar imagen */
+      margin:auto;
+   
+    }
