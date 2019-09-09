@@ -115,7 +115,7 @@ function showByType()
   //La diferencia es que en vez de referirnos a pokemon.type,.name,.etc nos referiremos a 
   //filterResult.name filterResult.img filterResult.number filterResult.type
   for(let i=0; i<filterResult.length; i++){
-    console.log(filterResult);
+    console.log(filterResult);}
       //Div de clase columna, cada tarjeta corresponderá a una columna dentro de la fila
       //let columnFile = document.createElement("div");
       //columnFile.className = "column";
