@@ -1,11 +1,42 @@
 <h1> RICK & MORTY DATA LOVERS PROJECT  </h1>
 <img src =" https://i.pinimg.com/originals/64/a9/37/64a93799ec68997b13444873e8021520.png">
+
  
 <ul>
-<li> DESCRIPCIÓN DEL PROYECTO: </li>
+<li> PROCESO DE CREACIÓN DE PROYECTO: </li>
 <p>
 
-Esta interfaz como muchas otras propone al usuario una visual con más    contenido e información con respecto a la serie. El objetivo    principal de nuestra página es proporcionarle una atracción inmediata    a los usuarios fieles como a quienes quieren conocer un poco más del    mundo de Rick & Morty; para eso hemos creado un landing donde podrá    recorrer, escoger y filtrar los contenidos a visitar. Lo más    importante es que la web es tan dinámica como amigable de utilizar,    no defrauda las necesidades y requerimientos de nuestros usuarios
+Revizando los diferentes temas que se nos entregaron y en conjunto decidimos crear una página para Rick and Morty, serie que nos parece interesante y que tiene un público bastante amplio para poder investigar.
+
+Comenzamos a investigar más de la serie, sus historias ocultas, sus mensajes, sus personajes y datos curiosos, temas que normalmente el público buscaría, luego creamos un formulario vía google para tomar a un público general sobre la serie
+
+FORMULARIO
+<a href=”https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO3rNgRSe6iQ/viewform”></a>
+
+Basandonos en las respuestas obtenidas comenzamos a ver qué era lo que deseaba el usuario de Rick and Morty y con esa información, procedimos a realizar sketch de lo que sería nuestra página.
+
+Wireframe I
+Prototipo de baja fidelidad.
+
+<img src ="https://66.media.tumblr.com/9d9cabf46b0f0e09e7137fb6b57888cc/tumblr_pxjgkixNf61yu9kbco1_540.jpg">
+
+Wireframe II
+Prototipo de baja fidelidad.
+
+<img src ="https://66.media.tumblr.com/a49d349eba1c0869f09218ffabcdac68/tumblr_pxjgkixNf61yu9kbco2_1280.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+Esta interfaz como muchas otras propone al usuario una visual con más contenido e información con respecto a la serie. El objetivo principal de nuestra página es proporcionarle una atracción inmediata    a los usuarios fieles como a quienes quieren conocer un poco más del    mundo de Rick & Morty; para eso hemos creado un landing donde podrá    recorrer, escoger y filtrar los contenidos a visitar. Lo más    importante es que la web es tan dinámica como amigable de utilizar,    no defrauda las necesidades y requerimientos de nuestros usuarios
 
 .</p>
 
@@ -28,11 +59,6 @@ Teniendo esta información, todos coinciden en querer información más específ
 <h5>Usuario:  Persona de 20+ de edad.
 
 <h5>Lo que le gustaría ver en la página:   Imágenes o gifs de partes de memorables de la serie.
-
-
-
-
-
 
 </ul>
 

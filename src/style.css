@@ -1,18 +1,21 @@
 body {
+padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
 background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
+
  }
 
  .loGo {
-    width: 650px; 
-    height: 300px;
+    width: 950px; 
+    height: 500px;
     align-content: center;
     display:block;
-    margin:auto;     
+    margin:auto; 
+        
  }
 
  .morTy1 {
-    width: 600px; 
-    height: 600px;
+    width: 800px; 
+    height: 790px;
     align-content: center;
     display:block; /* para centrar imagen */
     margin:auto;
@@ -22,6 +25,5 @@ background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_La
  button {
    display:block; /* para centrar imagen */
    margin:auto;
-
 
  }
