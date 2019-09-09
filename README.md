@@ -4,7 +4,7 @@
  
 <ul>
 <li> PROCESO DE CREACIÓN DE PROYECTO: </li>
-<p>
+
 
 Revizando los diferentes temas que se nos entregaron y en conjunto decidimos crear una página para Rick and Morty, serie que nos parece interesante y que tiene un público bastante amplio para poder investigar.
 
@@ -15,50 +15,53 @@ FORMULARIO
 
 Basandonos en las respuestas obtenidas comenzamos a ver qué era lo que deseaba el usuario de Rick and Morty y con esa información, procedimos a realizar sketch de lo que sería nuestra página.
 
-Wireframe I
+Wireframe I Básico
 Prototipo de baja fidelidad.
 
 <img src ="https://66.media.tumblr.com/9d9cabf46b0f0e09e7137fb6b57888cc/tumblr_pxjgkixNf61yu9kbco1_540.jpg">
 
-Wireframe II
+Wireframe II Básico
 Prototipo de baja fidelidad.
 
 <img src ="https://66.media.tumblr.com/a49d349eba1c0869f09218ffabcdac68/tumblr_pxjgkixNf61yu9kbco2_1280.jpg">
 
 
+<li>HISTORIA DE USUARIO 1:</li>
 
+Yo como usuario QUIERO ver en la página INFORMACION Y CURIOSIDADES de RickandMorty PARA tener más
+conocimientos sobre la serie.
 
+<li>HISTORIA DE USUARIO 2;</li>
 
-
-
-
-
-
-
-
-Esta interfaz como muchas otras propone al usuario una visual con más contenido e información con respecto a la serie. El objetivo principal de nuestra página es proporcionarle una atracción inmediata    a los usuarios fieles como a quienes quieren conocer un poco más del    mundo de Rick & Morty; para eso hemos creado un landing donde podrá    recorrer, escoger y filtrar los contenidos a visitar. Lo más    importante es que la web es tan dinámica como amigable de utilizar,    no defrauda las necesidades y requerimientos de nuestros usuarios
-
-.</p>
-
-<li> OBJETIVOS DE LA PÁGINA:</li>
-
-Proporcionar información y contenidos  de amplia gama  sobre la serie por medio de la interfaz que hemos creado.
-
-Generar a los usuarios satisfacción por cumplir con sus expectativas por medio de los contenidos.
-
- Promover a futuros usuarios a sumergirse en la serie como también a futuros coders a desarrollar más interfaces sobre Rick & Morty.
+Yo como usuario QUIERO ver en la página FANARTS o GALERIA DE IMAGENES OFICIALES PARA conocer más el arte de RickandMorty
 
 <li> NECESIDADES DEL USUARIO:</li>
 
 Luego de nuestras encuesta y entrevista, nos dimos que cuenta que pese a la existencia de páginas oficiales de Rick & Morty, la mayoría de los usuarios, incluso los más aferrados con ésta, solo han visitado la página que otorga Netflix y una que otra vez han visitado la página de Facebook oficial. 
 Teniendo esta información, todos coinciden en querer información más específica como datos curiosos, escenas memorables y/o datos de que analicen el trasfondo de los capítulos de Rick & Morty, a los cuales se puede acceder con el filtro que hemos puesto en la interfaz.
 
-<li> HISTORIAS DE USUARIO:</li>
-<h4> Historia 1 :
 
-<h5>Usuario:  Persona de 20+ de edad.
+Basandonos en las encuestas y diferentes entrevistas, esta interfaz otras propone al usuario una visual con más contenido e información con respecto a la serie. El objetivo principal de nuestra página es proporcionarle una atracción inmediata a los usuarios fieles como a quienes quieren conocer un poco más del mundo de Rick & Morty; para eso tenemos pensado crear un landing donde podrá recorrer, escoger y filtrar los contenidos a visitar. Lo más importante es que la web es tan dinámica como amigable de utilizar, no defrauda las necesidades y requerimientos de nuestros usuarios.
 
-<h5>Lo que le gustaría ver en la página:   Imágenes o gifs de partes de memorables de la serie.
 
-</ul>
+<li> OBJETIVOS DE LA PÁGINA:</li>
+
+Proporcionar información y contenidos sobre la serie por medio de la interfaz que hemos creado.
+
+Generar a los usuarios satisfacción por cumplir con sus expectativas por medio de los contenidos.
+
+Promover a futuros usuarios a sumergirse en la serie Rick & Morty.
+
+<li>BUSQUEDA</li>
+
+Ya obteniendo las HISTORIAS DE USUARIO y teniendo un conocimiento sobre lo que quiere el Usuario, pasamos a ver todo lo que será la creación de la página web, lo que podremos y no podremos realmente realizar, creamos metas para poder llegar a un objetivo.
+
+Ya que estamos trabajando en conjunto, a travez de Trello organizamos cada tema que abordaremos y que procedimientos haremos para
+llevar a cabo el proyecto.
+
+
+
+
+
+
 
