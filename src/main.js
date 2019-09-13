@@ -34,3 +34,40 @@ filterRyM = {  //
     };
   }
 };
+
+
+filterRyM = filterRyM; 
+
+//________________________________________________________________________________________________
+
+
+
+
+const containerRoot = document.getElementById("root") //llamo al root de HTML
+const selectstatus = document.getElementById('Alive') //Creo variable y llamo al estado ALIVE de la data de rickandmorty.js
+
+selectStatus.addEventListener("change" , () => {
+
+  let condition = selectstatus.options [selectstatus.selectIndex].text
+
+  window.filterAlive.Alive(root);
+
+})
+
+
+
+
+
+//return resultCharacter;
+//.join('');
+//filtrar
+//var filter_RyM = resultCharacter.filter(dos => dos =="RyM[i].name");
+//document.getElementById(showMetheName).addEventListener"click", ()=>;
+//BUSCAR WINDOW
+
+
+/* FILTRAR
+
+const filterhouse = (DATA, condition)
+
+*/
