@@ -7,69 +7,83 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon"
     href="https://66.media.tumblr.com/b9b877ecabf94da77e9dcb3fcdcfe1c9/tumblr_px16ur7a4X1yu9kbco1_1280.pnj">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--RESPONSIVE-->
 </head>
 
 <body>
   <header id="main-header">
-		
-		<a id="logo-header" href="#">
-			<span class="site-name">Rick and Morty</span>
-			<span class="site-desc"></span>
-		</a> <!-- / #logo-header -->
- 
-		<nav>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Acerca de</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav><!-- / nav -->
- 
-	</header><!-- / #main-header -->
- 
-	
-  <img id class="loGo" src="https://66.media.tumblr.com/cde29e32ab3cb949aa9ced56594121d5/tumblr_px9sz5OMQ31yu9kbco1_1280.png">
- 
 
-  <img id class="morTy1"
+    <a id="logo-header" href="#">
+      <span class="site-name">RICK AND Morty</span>
+      <span class="site-desc"></span>
+    </a> <!-- / #logo-header -->
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="https://www.adultswim.com/">Página Oficial</a></li>
+      </ul>
+    </nav><!-- / nav -->
+
+  </header>
+
+  <!-- / #main-header -->
+
+  <div id="root">
+
+    <img id class="loGo"
+      src="https://66.media.tumblr.com/e2c32e0f0307d2cf68e769299425638a/tumblr_pxoz3rx7dB1yu9kbco3_1280.png">
+
+
+    <img id class="morTy1"
     src="https://66.media.tumblr.com/6d6e64e9a88f4244baf46cb917670723/tumblr_pxkw2a1zj21yu9kbco1_1280.pnj">
 
-  <P>Rick Sanchez un científico loco de alrededor de 70 años cuya profesión o pasatiempo es ir de aventuras
-    con su nieto Morty Smith, llendo a muchas dimensiones desconocidas </P>
+    <h1>Wubba lubba dub dub!</h1>
+    
+      <P>Rick Sánchez, un científico loco, irresponsable, alcohólico, depresivo con muy 
+        poca cordura pero con un cerebro de genio se junta con Morty, su nieto, un joven tímido, 
+        no muy listo y en plena pubertad. Al juntarse, el dúo Rick y Morty vivirá aventuras 
+        fantásticas donde explorarán conceptos metafísicos como el multiverso o la existencia de 
+        universos paralelos dónde encontrarán miles de Rick’s y Morty’s. El abuelo Rick termina
+        mudándose a la casa de su hija Beth, que está casada con Jerry, un hombre que para Rick es 
+        un inútil sin aspiraciones en la vida y es por este motivo por el cual mediante reflexiones 
+        filosóficas y científicas, no quiere que su nieto acabe siendo un perdedor como Jerry. 
+        En múltiples aventuras se añade a ellos Summer, la hermana de Morty, cuya obsesión es la de 
+        ser  típica adolescente americana popular en su instituto.
+
+        Dan Harmon, cofundador de la serie, describe el show como una fusión de ciencia ficción 
+        y ambiente familiar como una mezcla de influencias entre las dos obras del gran 
+        Matt Groening: Los Simpson y Futurama. </P>
+
+  <section> 
+      <label>Toma una opción:
+        <select name="select" class= "filterLiveDead" id="filterLiveDead">
+                <option value="">Seleccione</option>
+                <option value="Alive">Vivos</option>
+                <option value="Dead">Muertos</option>
+                <option value="unknown">Paradero Desconocido</option>
+              
+         </select>
+      </label>
+  </section>
+
+
+  <button id="showMetheName" class="buttonNAME"></button>
+    <li><button id="showMeTheCharacters" class="buttoncharacter">
+      <img src="https://66.media.tumblr.com/9f8a5bfa417f71d7488f140db1055240/tumblr_pxp3odNcKH1yu9kbco2_540.png"></button></li>
+    <li><button id="showMeTheInfo" class="buttoninfo">
+      <img src="https://66.media.tumblr.com/36cc7bb60afb280eae0ad388fb44def0/tumblr_pxp3odNcKH1yu9kbco1_1280.png"></button></li>
+
+
+    <img id class="footerimg"
+    src="https://66.media.tumblr.com/dcc93966cb536af333df3c5d3ac5c4c7/tumblr_pxp5oq4Ls91yu9kbco1_1280.png">
 
   </div>
 
-  <nav>
-
-    <select id=filterType>
-
-      <option value="personajes" label="Tipo"></option>
-      <option value="Alive" label="vivos"></option>
-      <option value="Dead" label="muertos"></option>
-      <option value="Male" label="masculinos"></option>
-      <option value="Female" label="femeninos"></option>
-      <option value="Humans" label="humanos"></option>
-      <option value="Alien" label="aliens"></option>
-
-      <section>
-        <div class="container">
-          <div class="file">
-            <div id="root"></div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <!--Div que contendrá las tarjetas RyM -->
-      <div class="listFiles" id="root"></div>
-
-
-      </section>
-      <script src="./data/rickandmorty/rickandmorty.js"></script>
-      <script src="data.js"></script>
-      <script src="main.js"></script>
-
+  <script src="./data/rickandmorty/rickandmorty.js"></script>
+  <script src="data.js"> </script>
+  <script src="main.js"> </script>
 </body>
 
 </html>

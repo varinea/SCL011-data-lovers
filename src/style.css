@@ -1,102 +1,168 @@
-body {
-padding-top: 60px; /* Relleno superior igual a la altura de la cabecera*/
-background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
-
-
-
- }
-
- /*-------------------------------------------------*/
- #main-header {
-	background: whitesmoke;
-	color:black;
-   height: 50px;
-   
-   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 0; /* Posicionamos la cabecera al lado izquierdo */
-	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-}	
-	#main-header a {
-		color: black;
-	}
- 
-/*
- * Logo
- */
-#logo-header {
-	float: left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
-}
-	#logo-header:hover {
-		color: rgb(120, 146, 25);
-	}
-	
-	#logo-header .site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
-	
-	#logo-header .site-desc {
-		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: #999;
-	}
-	
- 
-/*
- * Navegación
- */
-nav {
-	float: right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 50px; /*poseciona al medio las letras de cabecera INICIO / ACERCA DE / CONTACTO  */
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
-			}
-			
-
-/* -------------------------------HEADER--------------------------- */
-
-
- .loGo {
-    width: 950px; 
-    height: 500px;
-    align-content: center;
-    display:block;
-    margin:auto; 
+@media screen and (max-width:800px ){ /* css responsive tamaño tablet*/
         
- }
+}
 
- .morTy1 {
-    width: 1000px; 
-    height: 900px;
-    align-content: center;
-    display:block; /* para centrar imagen */
-    margin:auto;
+body {
+    padding-top: 60px; /* Relleno superior igual a la altura de la cabecera*/
+    background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
+    
+    
+     }
+    
+     /*-----------------------HEADER--------------------------*/
+     #main-header {
+        background: whitesmoke;
+        color:black;
+       height: 50px;
+       
+       width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+        top: 0; /* Posicionamos la cabecera pegada arriba */
+        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    }	
+        #main-header a {
+            color: black;
+        }
+     
+    /*
+     * Logo
+     */
+    #logo-header {
+        float: left;
+        padding: 15px 0 0 20px;
+        text-decoration: none;
+    }
+        #logo-header:hover {
+            color: rgb(120, 146, 25);
+        }
+        
+        #logo-header .site-name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+        
+        #logo-header .site-desc {
+            display: block;
+            font-weight: 300;
+            font-size: 0.8em;
+            color: #999;
+        }
+        
+     
+    /*
+     * Navegación
+     */
+    nav {
+        float: right;
+    }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            padding-right: 20px;
+        }
+        
+            nav ul li {
+                display: inline-block;
+                line-height: 50px; /*poseciona al medio las letras de cabecera INICIO  */
+            }
+                
+                nav ul li a {
+                    display: block;
+                    padding: 0 10px;
+                    text-decoration: none;
+                }
+                
+    
+/* -------------------------------HEADER--------------------------- */
+    
+    
+     .loGo {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 120px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 140px;
+            
+     }
+    
+     .morTy1 {
+        width: 950px; 
+        height: 0px;
+        align-content: center;
+        display:block; /* para centrar imagen */
+        margin:auto;
+    
+     }
+    
 
- }
+     h1 {
+        color: aliceblue;
+        text-align: left;
+        padding-bottom: 50px;
+        padding-left: 600;
+        padding-right: 0;
+        padding-top: 00px;
+           
+      
+     }
 
- button {
-   display:block; /* para centrar imagen */
-   margin:auto;
+     p{
+        color: aliceblue;
+           text-align: center;
+           font-size: 1.2em;                   
 
- }
+    }
+
+    .imgrym {
+
+        display:block; /* para centrar imagen */
+        text-align: left;
+        padding-bottom: 50px;
+        padding-left: 50;
+        padding-right: 0;
+        padding-top: 00px;
+    
+    }
+ 
+    .buttoncharacter { 
+    background: transparent;
+    border: none;
+    
+    
+    display: block;
+    
+    }
+
+    .buttoninfo { 
+        background: transparent;
+        border: none;
+
+        top: -15px; /* ajustar los valores para mover la imagen */
+        left: -50px;
+        width: 150px;
+        height: 150px;
+   
+        
+        }
+    
+    .footerimg {
+        height: 1000px; 
+        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+        top: 0; /* Posicionamos la cabecera pegada arriba */
+
+    }
+
+    .character_RyM{
+       text-align: left;
+              
+
+
+
+    }
 
  
