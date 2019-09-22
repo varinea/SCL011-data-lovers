@@ -1,4 +1,4 @@
-/*-----------CABECERA FIJA--------------*/
+/*--------CABECERA FIJA----------*/
 #main-header {
     background: whitesmoke;
     color:black;
@@ -12,7 +12,7 @@
         color: black;
     }
  
-/* -----------Logo cabecera------------ */
+/* --------Logo cabecera--------- */
 #logo-header {
     float: left;
     padding: 15px 0 0 20px;
@@ -57,7 +57,7 @@ nav {
                 text-decoration: none;
             }
             
-/* ------------------FINAL CABECERA FIJA----------------------- */
+/* ----------FINAL CABECERA FIJA------------ */
 
 /* ----------LOGO PRINCIPAL----------- */
 
@@ -394,7 +394,6 @@ footer {
       }
     
 }
-
 
 
 @media screen and (max-width : 480px) {    /* ------PANTALLA PARA SMARTPHONE--- */
