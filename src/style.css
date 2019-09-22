@@ -1,168 +1,335 @@
-@media screen and (max-width:800px ){ /* css responsive tamaño tablet*/
+/*-----------CABECERA FIJA--------------*/
+#main-header {
+    background: whitesmoke;
+    color:black;
+   height: 50px;
+   
+   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+    #main-header a {
+        color: black;
+    }
+ 
+/* -----------Logo cabecera------------ */
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+    #logo-header:hover {
+        color: rgb(120, 146, 25);
+    }
+    
+    #logo-header .site-name {
+        display: block;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    
+    #logo-header .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 0.8em;
+        color: #999;
+    }
+    
+/*-------Navegación---------*/
+nav {
+    float: right;
+}
+    nav ul {  /* Tomo a nav ul y juntas le doy las sgtes ordenes  */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-right: 20px;
+    }
+    
+        nav ul li { /* Tomo a nav ul il y juntas le doy las sgtes ordenes  */
+            display: inline-block;
+            line-height: 50px; /* poseciona al medio las letras de cabecera INICIO  */
+        }
+           
+            nav ul li a { /* Tomo a nav ul il a y juntas le doy las sgtes ordenes  */
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+            }
+            
+/* ------------------FINAL CABECERA FIJA----------------------- */
+
+/* ----------LOGO PRINCIPAL----------- */
+
+.loGo {
+    
+    display:block;
+    margin-left: 11%;
+    margin-right: auto;
+    padding-top: 140px;
+    background: transparent;
         
+ }
+
+ 
+
+ /* -----LOGO PRINCIPAL----- */
+
+/* -------------FINAL INTRODUCCION--------------- */
+
+.textRyM {  /* Texto intro */
+    
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    width: 1050px;
+    height: 500px;
+    left: 251px;
+    top: 700px;
+    font-size: 20px;
+    color: #FFFDFD;
 }
 
-body {
-    padding-top: 60px; /* Relleno superior igual a la altura de la cabecera*/
-    background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');
+.textRyM2 {  /* Texto data */
     
-    
-     }
-    
-     /*-----------------------HEADER--------------------------*/
-     #main-header {
-        background: whitesmoke;
-        color:black;
-       height: 50px;
-       
-       width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-        left: 0; /* Posicionamos la cabecera al lado izquierdo */
-        top: 0; /* Posicionamos la cabecera pegada arriba */
-        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-    }	
-        #main-header a {
-            color: black;
-        }
-     
-    /*
-     * Logo
-     */
-    #logo-header {
-        float: left;
-        padding: 15px 0 0 20px;
-        text-decoration: none;
-    }
-        #logo-header:hover {
-            color: rgb(120, 146, 25);
-        }
-        
-        #logo-header .site-name {
-            display: block;
-            font-weight: 700;
-            font-size: 1.2em;
-        }
-        
-        #logo-header .site-desc {
-            display: block;
-            font-weight: 300;
-            font-size: 0.8em;
-            color: #999;
-        }
-        
-     
-    /*
-     * Navegación
-     */
-    nav {
-        float: right;
-    }
-        nav ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            padding-right: 20px;
-        }
-        
-            nav ul li {
-                display: inline-block;
-                line-height: 50px; /*poseciona al medio las letras de cabecera INICIO  */
-            }
-                
-                nav ul li a {
-                    display: block;
-                    padding: 0 10px;
-                    text-decoration: none;
-                }
-                
-    
-/* -------------------------------HEADER--------------------------- */
-    
-    
-     .loGo {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 120px;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 140px;
-            
-     }
-    
-     .morTy1 {
-        width: 950px; 
-        height: 0px;
-        align-content: center;
-        display:block; /* para centrar imagen */
-        margin:auto;
-    
-     }
-    
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    width: 1050px;
+    height: 544px;
+    left: 60px;
+    top: 90px;
+    font-size: 20px;
+    color: #FFFDFD;
+    line-height : 25px;
+}
 
-     h1 {
-        color: aliceblue;
-        text-align: left;
-        padding-bottom: 50px;
-        padding-left: 600;
-        padding-right: 0;
-        padding-top: 00px;
-           
-      
-     }
-
-     p{
-        color: aliceblue;
-           text-align: center;
-           font-size: 1.2em;                   
-
-    }
-
-    .imgrym {
-
-        display:block; /* para centrar imagen */
-        text-align: left;
-        padding-bottom: 50px;
-        padding-left: 50;
-        padding-right: 0;
-        padding-top: 00px;
-    
-    }
+.liItem {
  
-    .buttoncharacter { 
+    float: left; 
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 10%; 
+    color: #FFFDFD;
+    position: relative;
+  
+
+}
+.charData {
+    
+    float: unset;
+    position: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FFFDFD;
+
+}
+
+
+
+/* ---------------FINAL INTRODUCCION-------------------- */
+
+/* ----------------BOTONES------------------- */
+
+
+
+.buttoncharacter { 
     background: transparent;
-    border: none;
+    border: none; 
+    position: absolute;
+    left: 150px;
+    top: 1300px;
     
-    
+}
+
+.buttoncreators { 
+    background: transparent;
+    border: none; 
     display: block;
-    
-    }
+    position: absolute;
+    left: 554px;
+    top: 1900px;
 
-    .buttoninfo { 
+}
+
+.buttonvideo { 
+    background: transparent;
+    border: none; 
+    position: absolute;
+    left: 150px;
+    top: 2400px;
+
+}
+
+.buttonstore { 
+    background: transparent;
+    border: none; 
+    display: block;
+    position: absolute;
+    left: 554px;
+    top: 2900px;
+
+}
+
+
+/* ------------------FIN BOTONES------------------- */
+
+/* ---------------BACKGROUND--------------------- */
+
+ body {    
+     /* Relleno superior igual a la altura de la cabecera*/
+    background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');  
+    
+}
+
+/* ------------FINAL BACKGROUND------------------- */
+
+/* -----------------------HTML2--------------------------- */
+
+
+.textRyM3 {  
+    
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    width: 1050px;
+    height: 3000px;
+    left: 251px;
+    top: 100px;
+    font-size: 20px;
+    color: #FFFDFD;
+}
+
+/* -----------------------HTML3--------------------------- */
+
+
+.textRyM4 {  
+    
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    line-height : 25px;
+     /* altura de la pagina */
+    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
+    top: 100px;   /* posicionamiento de altura, que no se toque con header */
+    font-size: 20px;
+    color: #FFFDFD;
+}
+
+#videoMyR {
+    position: absolute;
+    /* altura de la pagina */
+    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
+    top: 90px;   /* posicionamiento de altura, que no se toque con header */
+    
+}
+
+
+.buttonVideo {  
+    position: absolute;
+     /* altura de la pagina */
+    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
+    top: 700px;   /* posicionamiento de altura, que no se toque con header */
+    
+}
+
+
+
+/* -----------------------FOOTER--------------------------- */
+
+footer {
+
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    line-height : 20px;
+    text-align: center;
+    left: 50px;   /* posicionamiento de los objetos desde lado izquierdo */
+    top: 3600px;   /* posicionamiento de altura, que no se toque con header */
+    font-size: 12px;
+    color: #FFFDFD;
+}
+
+/* -----------------------RESPONSIVE--------------------------- */
+
+
+@media screen and (max-width:800px) {
+      body {
+        background: black;
+       }
+       .loGo {
+        width: 80%;      
         background: transparent;
-        border: none;
 
-        top: -15px; /* ajustar los valores para mover la imagen */
-        left: -50px;
-        width: 150px;
-        height: 150px;
-   
+       }
+       .textRyM{
+        width: 80%;  
+        font-size: 15px;
+        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 300px;   
+       }
+
+       .textRyM2{
+         
+        font-size: 15px;
+        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 70px;   
+       }
+
+       .textRyM3{
+        width: 80%;  
+        font-size: 15px;
+        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 300px;   
+       }
+
+       .textRyM4{
+        width: 80%;  
+        font-size: 15px;
+        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 300px;   
+       }
+
+       .liItem {
+       
+        font-size: 15px;
+        left: 95px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 100px;
+
+       }
+
+       .charData {
+        width: 80%;  
+        font-size: 15px;
+        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 300px;
+       }
+
+       .buttoncharacter {
+        top: 750px;
+        left: 8%;
+       
+       }
+
+       .buttoncreators {
+        top: 1400px;
+        left: 8%;
+       }
+
+       .buttonvideo {
+        top: 2000px;
+        left: 8%;
+       }
+
+       .buttonstore {
         
-        }
-    
-    .footerimg {
-        height: 1000px; 
-        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-        left: 0; /* Posicionamos la cabecera al lado izquierdo */
-        top: 0; /* Posicionamos la cabecera pegada arriba */
+        top: 2600px;
+        left: 8%;
+       }
 
+       footer {
+        position: absolute;
+        line-height : 20px;
+        text-align: left;
+        position: center;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 3300px;   /* posicionamiento de altura, que no se toque con header */
     }
-
-    .character_RyM{
-       text-align: left;
-              
-
-
-
-    }
-
- 
+      
+}
