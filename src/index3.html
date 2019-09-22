@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rick and Morty</title>
+    <!--Enlace a Css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Icono para que se vea en la ventana-->
+    <link rel="icon"href="https://66.media.tumblr.com/b9b877ecabf94da77e9dcb3fcdcfe1c9/tumbl} r_px16ur7a4X1yu9kbco1_1280.pnj">
+    <!--RESPONSIVE-->
+
+    <!--FUENTES-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+
+</head>
+
+<body>
+        <div id="container"> <!------ /CONTAINER---- --> 
+
+    <!-- CABECERA FIJA DE LA PÁGINA -->
+    <header id="main-header">
+
+        <a id="logo-header" href="index.html">
+            <span class="site-name">RICK AND MORTY</span>
+            <span class="site-desc"></span>
+        </a>
+        <!-- / #logo-header -->
+
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/rickandmorty/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/RickandMorty/">Facebook</a></li>
+                <li><a href="https://twitter.com/rickandmorty?lang=es">Twitter</a></li>
+                <li><a href="https://www.adultswim.com/">Página Oficial</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-------- TERMINA LA CABECERA FIJA -------->
+
+
+    <div class="textRyM4">
+        <h2>Rick and Morty</h2>
+        <h1>Te lo resumo así no más</h1>
+    </div>
+    <video width="820" height="740" id="videoMyR">
+        <source src="videoRick And Morty.mp4" type="video/mp4">
+        <source src="videoRick And Morty.webm" type="video/webm">
+    </video>
+    <div class="buttonVideo">
+        <button class="video" onclick="playPause()">Play-Pause</button>
+        <button class="video" onclick="stop()">Detener</button>
+        <button class="video" onclick="skip(-5)">Retroseder</button>
+        <button class="video" onclick="skip(10)">Adelantar</button>
+
+    </div>
+</div>   <!------ /CONTAINER---- -->
+
+    <script src="./data/rickandmorty/rickandmorty.js"></script>
+    <script src="data.js"> </script>
+    <script src="main.js"> </script>
+
+</body>
+
+</html>
