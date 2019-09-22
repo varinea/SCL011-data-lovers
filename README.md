@@ -18,10 +18,11 @@ Basandonos en las respuestas obtenidas creamos al Usuario promedio, quien conoce
 ya que muestra interés en los personajes, conocer a los autores, videos especiales, de donde proviene la serie, etc, como podemos ver 
 en las imagenes del formulario.
 
-![Alt text](formulario1.png "formulario1")
-![Alt text](formulario2.jpg "formulario1")
+<img src ="https://66.media.tumblr.com/ccd3407d28c1b16ea4f756148baf0ddf/tumblr_py8gy5bKPN1yu9kbco1_1280.jpg">
 
+<img src ="https://66.media.tumblr.com/ccd3407d28c1b16ea4f756148baf0ddf/tumblr_py8gy5bKPN1yu9kbco1_1280.jpg">
 
+<img src ="https://66.media.tumblr.com/d2f94711ae30a5944dfa19c1b313d728/tumblr_py8g2iIVZe1yu9kbco10_1280.jpg">
 
 
 
