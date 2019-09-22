@@ -102,9 +102,9 @@ https://www.figma.com/proto/VGoesvhLdau142QddK0IHs/RyM-Prototipo-de-Alta-calidad
 
 <li> Entrevista a Usuario </li>
 
-<audio src="ENTREVISTA A USUARIO RyM1.mp4"></audio>
-<audio src="ENTREVISTA A USUARIO RyM2.mp4"></audio>
-<audio src="ENTREVISTA A USUARIO RyM3.mp4"></audio>
+<audio src="ENTREVISTA A USUARIO RyM1.mp4" autoplay loop></audio>
+<audio src="ENTREVISTA A USUARIO RyM2.mp4" autoplay loop></audio>
+<audio src="ENTREVISTA A USUARIO RyM3.mp4" autoplay loop></audio>
 
 
 
