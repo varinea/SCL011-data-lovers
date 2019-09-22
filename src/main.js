@@ -1,6 +1,5 @@
 /* Manejo del DOM */
 
-
 /*___________________________VIDEO_____________________________________*/
 
 
@@ -18,7 +17,6 @@ var RyMVideo = document.getElementById("videoMyR");
         function skip(value) {
             videoMyR.currentTime += value;
         };
-
 
 /*___________________________PERSONAJES_____________________________________*/
 
@@ -63,8 +61,3 @@ filterRyM = {character: (RyM) => {
 };
 
 filterRyM = filterRyM;
-
-
-
-
-
