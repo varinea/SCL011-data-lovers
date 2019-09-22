@@ -102,9 +102,7 @@ https://www.figma.com/proto/VGoesvhLdau142QddK0IHs/RyM-Prototipo-de-Alta-calidad
 
 <li> Entrevista a Usuario </li>
 
-<audio src="ENTREVISTA A USUARIO RyM1.mp4" autoplay loop></audio>
-<audio src="ENTREVISTA A USUARIO RyM2.mp4" autoplay loop></audio>
-<audio src="ENTREVISTA A USUARIO RyM3.mp4" autoplay loop></audio>
+ <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/bolPO8qVK689oTrpufkeeg/187885809526" data-did="5d5c8971cb9e1f135ef2d68613b578247063807b"><a href="https://puraswueas.tumblr.com/post/187885809526/entrevista-parte1">https://puraswueas.tumblr.com/post/187885809526/entrevista-parte1</a></div>  <script async src="https://assets.tumblr.com/post.js"></script>
 
 
 
