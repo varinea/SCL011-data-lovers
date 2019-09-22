@@ -11,7 +11,14 @@ Revizando los diferentes temas que se nos entregaron y en conjunto decidimos cre
 Comenzamos a investigar más de la serie, sus historias ocultas, sus mensajes, sus personajes y datos curiosos, temas que normalmente el público buscaría, luego creamos un formulario vía google para tomar a un público general sobre la serie.
 
 FORMULARIO
-https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO3rNgRSe6iQ/viewform”
+https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO3rNgRSe6iQ/viewform
+
+
+Basandonos en las respuestas obtenidas creamos al Usuario promedio, quien conoce la serie y desea profundizar más en ella,
+ya que muestra interés en los personajes, conocer a los autores, videos especiales, de donde proviene la serie, etc, como podemos ver 
+en las imagenes del formulario.
+
+![Alt text](formulario1.jpge "formulario1")
 
 
 
@@ -21,10 +28,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO
 
 
 
+ y con esa información, procedimos a realizar sketch de lo que sería nuestra página.
 
-
-
-Basandonos en las respuestas obtenidas comenzamos a ver qué era lo que deseaba el usuario de Rick and Morty y con esa información, procedimos a realizar sketch de lo que sería nuestra página.
+La mayoria de nuestros usuarios, querian info de la serie, sus personajes, videos especiales 
 
 Wireframe I Básico
 Prototipo de baja fidelidad.
