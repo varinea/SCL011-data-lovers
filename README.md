@@ -9,6 +9,11 @@
 
 Revizando los diferentes temas que se entregaron se decidio crear una página para Rick and Morty, serie que es interesante y atractiva y que mantiene un público bastante amplio para poder investigar.
 
+Creamos un Trello para organizar nuestro trabajo y asignarnos tareas:
+
+TRELLO
+https://trello.com/b/4JwG1qXL/rick-and-morty
+
 Comenzamos a investigar más de la serie, sus historias ocultas, sus mensajes, sus personajes y datos curiosos, temas que normalmente el público buscaría, luego creamos un formulario vía google para formar la opinion del público en general sobre la serie.
 
 FORMULARIO
@@ -62,7 +67,7 @@ Diseño diferentes bocetos para tener una idea general sobre como será la pági
 <h2> Wireframe II Básico </h2>
 Prototipo de baja fidelidad.
 
-<img src ="https://66.media.tumblr.com/a49d349eba1c0869f09218ffabcdac68/tumblr_pxjgkixNCref61yu9kbco2_1280.jpg">
+<img src ="https://66.media.tumblr.com/a49d349eba1c0869f09218ffabcdac68/tumblr_pxjgkixNf61yu9kbco2_1280.jpg">
 
 
 Creando los prototipos definimos bien al usuario para luego pasar a realizar el prototipo de alta fidelidad.
@@ -91,6 +96,10 @@ Basandonos en las encuestas, esta interfaz propone al usuario una visual con má
 
 -Promover a futuros usuarios a sumergirse en la serie Rick & Morty.
 
+<li> CABIOS de prototipeado de baja a alta calidad</li>
+
+Basandonos en la encuesta en google el usuario no muestra un gran interes en ver art oficial o fanart, asi que se elimina y se agrega una página de video donde se resumen las tres temporadas actuales de la serie.
+
 <h2>PROTOTIPO DE ALTA FIDELIDAD:</h2>
 
 El link a continuación nos muestra un diseño de pagina web creado en Figma para poder entrevistar a nuestro Usuario y ver detalladamente
@@ -102,20 +111,70 @@ https://www.figma.com/proto/VGoesvhLdau142QddK0IHs/RyM-Prototipo-de-Alta-calidad
 
 <li> Entrevista a Usuario </li>
 
- <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/bolPO8qVK689oTrpufkeeg/187885809526" data-did="5d5c8971cb9e1f135ef2d68613b578247063807b"><a href="https://puraswueas.tumblr.com/post/187885809526/entrevista-parte1">https://puraswueas.tumblr.com/post/187885809526/entrevista-parte1</a></div>  <script async src="https://assets.tumblr.com/post.js"></script>
+DISEÑO DE ENTREVISTA
+
+Usuario 1
+Nombre: Gustavo Nicolas 
+Edad: 21 años
+Ocupación: Estudiante de Contabilidad
+
+ENTREVISTA
+
+Agradeciendo tu tiempo para poder realizar esta prueba de usabilidad de la pagina web RyM que estoy creando
+quisiera hacerte unas preguntas respecto a ti y a tus intereses.
+
+-¿Cuál es tu Nombre?
+-¿Qué edad tienes?
+-¿Te agrada ver peliculas y series de TV?
+¿Te agrada la animación con tematica para adultos?
+
+SABIENDO que has visto RyM.
+
+-¿Has visto todas las temporadas?
+-Qué escena te gusto más y por que?
+
+SE PRESENTA EL PROTOTIPO DE ALTA FIDELIDAD AL USUARIO
+
+-Te hare unas preguntas mientras usas la página para así poder saber que mejorar.
+-¿Te agrada el diseño de la página hasta ahora?
+-¿Estas de acuerdo con la información que estas leyendo?
+
+LE PIDO al cliente que ingrese al boton personajes y me cuente su experiencia en la data.
+
+-¿Se te dificulta algo en la página?
+-En general ¿Que te parecio la página y en que piensas que debe mejorar?
+
+Y Para finalizar 
+
+¿Que nota le colocarias?
+
+
+<li>AUDIO ENTREVISTA</li>
+
+https://drive.google.com/open?id=1krwc_rWIaN5wEsa82xzAw0iAz9kRPung
+https://drive.google.com/open?id=1fH2BykW8dLTmo9wz0WyqQXjEHGriW7KM
+https://drive.google.com/open?id=1559BUwSXAiibAdrybzTpj6sJKN0Do_ok
 
 
 
-<li>BUSQUEDA</li>
 
-Ya obteniendo las HISTORIAS DE USUARIO y teniendo un conocimiento sobre lo que quiere el Usuario, pasamos a ver todo lo que será la creación de la página web, lo que podremos y no podremos realmente realizar, creamos metas para poder llegar a un objetivo.
+<li>Problemas detectados a traves de test de usabilidad</li>
 
-Ya que estamos trabajando en conjunto, a travez de Trello organizamos cada tema que abordaremos y que procedimientos haremos para
-llevar a cabo el proyecto.
+-El usuario presenta dificultad al momento de volver a HOME en la pagina web, ya que no se habia asignado boton para volver.
+-Se detecta poco afecto o interes en el diseño en la parte de los botones principales.
+-Afirma que el contenido el claro y facil de usar.
 
+<li>CONTENIDO DE LA PAGINA y su proceso de creación final</li>
 
+Ya aclarada la necesidad del usuario se pasa a crear la página web.
 
+Se crean 3 HTMLS, 
+Index.html : lleva directamente al trabajo de DATA de RyM donde solo logro mostrar los personajes al cliente (objetivo no cumplido)
+Index.html2 : Lleva al Usuario a lo mas solicitado donde se habla de la serie en general y los autores.
+Index. html3 : Se crea un video donde se resumen las tres temporadas, este esta hecho a traves de HTML, CSS PARA SU DISEÑO Y JS para su interaccion con el usuario.
 
+Css: Contiene responsive para iphone y para tablet.
+JS: contiene la data de los personajes, muestra los personajes a los usuarios.
 
 
 
