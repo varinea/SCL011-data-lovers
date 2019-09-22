@@ -1,51 +1,34 @@
+filterRyM = {character: (RyM) => {
+  //(character_RyM) conecto con filter para poder 
 
+  let resultCharacter; // Creo la variable para que recorra for.
+  for (let i = 0; i < RyM.length; i++) { //For recorrer       para concatenar ``
 
-/* SOLO IMAGENES  */
-/*
-let RyM2 = RICKANDMORTY.results;
-//Le doy nombre a mi variable, la cuál tiene la función de llamar la data de rickandmorty.js resultados.
+  
+    resultCharacter +=
+    `   
+    <div class="textRyM2"> 
+      <h2>CONOCE A TODOS LOS PERSONAJES</h2>
+      <h1>de Rick and Morty</h1>
+      <br><br>
+      </div>
 
-document.getElementById("showMeTheInfo").addEventListener("click", () => {
-  filterRyM2.info(RyM2);
-  //llamo al id "showMeTheCharacters" de HTML y con un addEve...anuncio que al hacer click el usuario al hacer llama
-  // a la variable de los personajes de RICKANDMORTY, y con 
-})
-filterRyM2 = {  //
-  info: (RyM2) => {
-    //(character_RyM) conecto con filter para poder 
+      <div class="liItem">
+      <br><br><br><br><br><br><br><br><br>
+        <img class="imgrym" src="${RyM[i].image}">
+        <div class="charData"> 
+        <p class="textrym1">  ${RyM[i].name}</p>
+        <p class="textrym1">  ${RyM[i].status}</p>
+        <p class="textrym1">  ${RyM[i].species}</p>
+        <p class="textrym1">  ${RyM[i].origin.name}</p>
+        </div>    
+        </div>
+        `
+      
+    document.getElementById("root").innerHTML = resultCharacter;
 
-    let resultCharacter2 = [" "]; // Creo la variable para que recorra for.
-    for (let i = 0; i < RyM.length; i++) { //For recorrer       para concatenar ``
-      resultCharacter2 +=
-
-          `       
-          <li class="liItem"> 
-          <class="character_RyM">
-          <img class="imgrym" src="${RyM2[i].image}">
-          </li>
-          `
-      document.getElementById("root").innerHTML = resultCharacter2;
-
-    };
-  }
+  };
+}
 };
 
-filterRyM2 = filterRyM2
-
-
-//----------------------------------------------------------
-
-
-//return resultCharacter;
-//.join('');
-//filtrar
-//var filter_RyM = resultCharacter.filter(dos => dos =="RyM[i].name");
-//document.getElementById(showMetheName).addEventListener"click", ()=>;
-//BUSCAR WINDOW
-
-
- FILTRAR
-
-const filterhouse = (DATA, condition)
-
-*/
+filterRyM = filterRyM;

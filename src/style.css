@@ -2,9 +2,8 @@
 #main-header {
     background: whitesmoke;
     color:black;
-   height: 50px;
-   
-   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    height: 50px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
     position: fixed; /* Hacemos que la cabecera tenga una posición fija */
@@ -66,17 +65,14 @@ nav {
     
     display:block;
     margin-left: 11%;
-    margin-right: auto;
-    padding-top: 140px;
-    background: transparent;
-        
+    margin-right: 100%;
+    padding-top: 90px;
+    background: transparent;      
  }
-
- 
-
  /* -----LOGO PRINCIPAL----- */
 
 /* -------------FINAL INTRODUCCION--------------- */
+
 
 .textRyM {  /* Texto intro */
     
@@ -85,9 +81,10 @@ nav {
     width: 1050px;
     height: 500px;
     left: 251px;
-    top: 700px;
+    top: 800px;
     font-size: 20px;
     color: #FFFDFD;
+    text-align: justify;  
 }
 
 .textRyM2 {  /* Texto data */
@@ -101,6 +98,7 @@ nav {
     font-size: 20px;
     color: #FFFDFD;
     line-height : 25px;
+    text-align: justify;
 }
 
 .liItem {
@@ -113,7 +111,6 @@ nav {
     color: #FFFDFD;
     position: relative;
   
-
 }
 .charData {
     
@@ -125,19 +122,15 @@ nav {
 
 }
 
-
-
 /* ---------------FINAL INTRODUCCION-------------------- */
 
 /* ----------------BOTONES------------------- */
-
-
 
 .buttoncharacter { 
     background: transparent;
     border: none; 
     position: absolute;
-    left: 150px;
+    left: 15%;
     top: 1300px;
     
 }
@@ -147,8 +140,8 @@ nav {
     border: none; 
     display: block;
     position: absolute;
-    left: 554px;
-    top: 1900px;
+    left: 60%;
+    top: 1750px;
 
 }
 
@@ -156,19 +149,8 @@ nav {
     background: transparent;
     border: none; 
     position: absolute;
-    left: 150px;
-    top: 2400px;
-
-}
-
-.buttonstore { 
-    background: transparent;
-    border: none; 
-    display: block;
-    position: absolute;
-    left: 554px;
-    top: 2900px;
-
+    left: 500px;
+    top: 2100px;
 }
 
 
@@ -179,6 +161,7 @@ nav {
  body {    
      /* Relleno superior igual a la altura de la cabecera*/
     background: url('https://i.cdn.turner.com/adultswim/big/img/2018/11/29/18-RAM_Landing%20Page%20Update.png');  
+    max-width: 1000px;
     
 }
 
@@ -197,6 +180,7 @@ nav {
     top: 100px;
     font-size: 20px;
     color: #FFFDFD;
+    text-align: justify;
 }
 
 /* -----------------------HTML3--------------------------- */
@@ -208,30 +192,53 @@ nav {
     position: absolute;
     line-height : 25px;
      /* altura de la pagina */
-    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
+    left: 400px;   /* posicionamiento de los objetos desde lado izquierdo */
     top: 100px;   /* posicionamiento de altura, que no se toque con header */
     font-size: 20px;
     color: #FFFDFD;
-}
-
-#videoMyR {
-    position: absolute;
-    /* altura de la pagina */
-    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
-    top: 90px;   /* posicionamiento de altura, que no se toque con header */
-    
+    text-align: justify;
 }
 
 
 .buttonVideo {  
     position: absolute;
      /* altura de la pagina */
-    left: 320px;   /* posicionamiento de los objetos desde lado izquierdo */
+    left: 400px;   /* posicionamiento de los objetos desde lado izquierdo */
     top: 700px;   /* posicionamiento de altura, que no se toque con header */
     
 }
 
+video {
+    width:50%;
+    left: 400px;
+    position: absolute;
+    top: 250px;
+}
 
+.link1 {
+    width:50%;
+    left: 400px;
+    position: absolute;
+    top: 3300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFDFD;
+    text-align: justify;
+    margin-bottom: 20px; /*bordes de abajo de objeto*/
+    font-weight: 1000;
+}
+
+.link2 {
+    width:50%;
+    left: 650px;
+    position: absolute;
+    top: 750px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFDFD;
+    text-align: justify;
+    font-weight: 1000;  /*anchura de la letra*/
+}
 
 /* -----------------------FOOTER--------------------------- */
 
@@ -242,20 +249,155 @@ footer {
     line-height : 20px;
     text-align: center;
     left: 50px;   /* posicionamiento de los objetos desde lado izquierdo */
-    top: 3600px;   /* posicionamiento de altura, que no se toque con header */
+    top: 2700px;   /* posicionamiento de altura, que no se toque con header */
     font-size: 12px;
     color: #FFFDFD;
+  
 }
 
 /* -----------------------RESPONSIVE--------------------------- */
 
+@media screen and (max-width : 800px) {    /* ------PANTALLA PARA tablet--- */
+     
+    body {
+      background: black;
+     }
+     
+     .loGo {
+      width: 80%;      
+      background: transparent;
 
-@media screen and (max-width:800px) {
+     }
+     .textRyM{
+      width: 80%;  
+      font-size: 15px;
+      left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 350px; 
+      text-align: justify;  
+     }
+
+     .textRyM2{
+       
+      font-size: 15px;
+      left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 70px;  
+      text-align: justify; 
+     }
+
+     .textRyM3{
+      width: 80%;  
+      font-size: 15px;
+      left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 100px;  
+      text-align: justify; 
+     }
+
+     .textRyM4{
+      width: 80%;  
+      font-size: 15px;
+      left: 100px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 100px;  
+      text-align: justify; 
+     }
+
+     .liItem {
+     
+      font-size: 15px;
+      left: 95px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 100px;
+     }
+
+     .charData {
+      width: 80%;  
+      font-size: 15px;
+      left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 300px;
+     }
+
+     .buttoncharacter {
+      top: 100%;
+      left: 8%;
+
+     }
+
+     .buttoncreators {
+      top: 200%;
+      left: 10%;
+     }
+
+     .buttonvideo {  
+        position: absolute;
+        left: 30%;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 260%   /* posicionamiento de altura, que no se toque con header */
+   
+       }
+
+     video {
+      width:70%;
+      left: 15%;
+      top: 30%;
+      }
+  
+
+      .buTTVideo2 {  
+        position: absolute;
+        left: 15%;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 70%   /* posicionamiento de altura, que no se toque con header */
+   
+       }
+ 
+
+     footer {
+      position: absolute;
+      line-height : 20px;
+      text-align: center;
+      position: center;   /* posicionamiento de los objetos desde lado izquierdo */
+      top: 2400px;   /* posicionamiento de altura, que no se toque con header */
+      }
+
+     .imagenPag2 {
+      width: 100%;
+
+      }
+
+      .link1 {
+          width:50%;
+          left: 45%;
+          position: absolute;
+          top: 3000px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 15px;
+          color: #FFFDFD;
+          margin-bottom: 20px; /*bordes de abajo de objeto*/
+          font-weight: 1000;
+        
+      }
+      
+      .link2 {
+          width:50%;
+          left: 45%;
+          position: absolute;
+          top: 600px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 15px;
+          color: #FFFDFD;
+          margin-bottom: 10px; /*bordes de abajo de objeto*/
+          font-weight: 1000;
+     
+      }
+    
+}
+
+
+
+@media screen and (max-width : 480px) {    /* ------PANTALLA PARA SMARTPHONE--- */
+     
       body {
         background: black;
        }
+       
        .loGo {
-        width: 80%;      
+        width: 100%;      
         background: transparent;
 
        }
@@ -263,28 +405,32 @@ footer {
         width: 80%;  
         font-size: 15px;
         left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px;   
+        top: 300px; 
+        text-align: justify;  
        }
 
        .textRyM2{
          
         font-size: 15px;
         left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 70px;   
+        top: 70px;  
+        text-align: justify; 
        }
 
        .textRyM3{
         width: 80%;  
         font-size: 15px;
         left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px;   
+        top: 300px;  
+        text-align: justify; 
        }
 
        .textRyM4{
         width: 80%;  
         font-size: 15px;
         left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px;   
+        top: 100px;  
+        text-align: justify; 
        }
 
        .liItem {
@@ -292,7 +438,6 @@ footer {
         font-size: 15px;
         left: 95px;   /* posicionamiento de los objetos desde lado izquierdo */
         top: 100px;
-
        }
 
        .charData {
@@ -309,27 +454,60 @@ footer {
        }
 
        .buttoncreators {
-        top: 1400px;
-        left: 8%;
+        top: 1500px;
+        left: 10%;
        }
 
-       .buttonvideo {
-        top: 2000px;
-        left: 8%;
-       }
-
-       .buttonstore {
-        
-        top: 2600px;
-        left: 8%;
-       }
+       video {
+        width:70%;
+        left: 15%;
+        top: 30%;
+        }
+    
+       .buttonVideo {  
+         position: absolute;
+         left: 15%;   /* posicionamiento de los objetos desde lado izquierdo */
+         top: 65%   /* posicionamiento de altura, que no se toque con header */
+    
+        }
 
        footer {
         position: absolute;
         line-height : 20px;
-        text-align: left;
+        text-align: center;
         position: center;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 3300px;   /* posicionamiento de altura, que no se toque con header */
-    }
+        top: 2400px;   /* posicionamiento de altura, que no se toque con header */
+        }
+
+       .imagenPag2 {
+        width: 100%;
+
+        }
+
+        .link1 {
+            width:50%;
+            left: 45%;
+            position: absolute;
+            top: 3000px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            color: #FFFDFD;
+            margin-bottom: 20px; /*bordes de abajo de objeto*/
+            font-weight: 1000;
+          
+        }
+        
+        .link2 {
+            width:50%;
+            left: 45%;
+            position: absolute;
+            top: 600px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            color: #FFFDFD;
+            margin-bottom: 10px; /*bordes de abajo de objeto*/
+            font-weight: 1000;
+       
+        }
       
 }
