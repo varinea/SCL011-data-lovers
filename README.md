@@ -18,7 +18,9 @@ Basandonos en las respuestas obtenidas creamos al Usuario promedio, quien conoce
 ya que muestra interés en los personajes, conocer a los autores, videos especiales, de donde proviene la serie, etc, como podemos ver 
 en las imagenes del formulario.
 
-![Alt text](formulario1.jpge "formulario1")
+![Alt text](formulario1.png "formulario1")
+![Alt text](formulario2.jpg "formulario1")
+
 
 
 
