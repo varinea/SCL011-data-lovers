@@ -2,16 +2,27 @@
 <img src =" https://i.pinimg.com/originals/64/a9/37/64a93799ec68997b13444873e8021520.png">
 
  
-<ul>
+
 <li> PROCESO DE CREACIÓN DE PROYECTO: </li>
 
 
 Revizando los diferentes temas que se nos entregaron y en conjunto decidimos crear una página para Rick and Morty, serie que nos parece interesante y que tiene un público bastante amplio para poder investigar.
 
-Comenzamos a investigar más de la serie, sus historias ocultas, sus mensajes, sus personajes y datos curiosos, temas que normalmente el público buscaría, luego creamos un formulario vía google para tomar a un público general sobre la serie
+Comenzamos a investigar más de la serie, sus historias ocultas, sus mensajes, sus personajes y datos curiosos, temas que normalmente el público buscaría, luego creamos un formulario vía google para tomar a un público general sobre la serie.
 
 FORMULARIO
-<a href=”https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO3rNgRSe6iQ/viewform”></a>
+https://docs.google.com/forms/d/e/1FAIpQLSfP_qA1w9vlQRNd0DeJ-RuWMUiBPUNg7pIkj9xO3rNgRSe6iQ/viewform”
+
+
+
+
+
+
+
+
+
+
+
 
 Basandonos en las respuestas obtenidas comenzamos a ver qué era lo que deseaba el usuario de Rick and Morty y con esa información, procedimos a realizar sketch de lo que sería nuestra página.
 

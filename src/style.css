@@ -109,7 +109,7 @@ nav {
     padding-bottom: 1%;
     padding-top: 10%; 
     color: #FFFDFD;
-    position: relative;
+    position: left;
   
 }
 .charData {
@@ -214,6 +214,13 @@ video {
     position: absolute;
     top: 250px;
 }
+
+.buTTVideo2 {  
+    position: absolute;
+    left: 400px;   /* posicionamiento de los objetos desde lado izquierdo */
+    top: 90%   /* posicionamiento de altura, que no se toque con header */
+
+   }
 
 .link1 {
     width:50%;
