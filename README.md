@@ -107,7 +107,7 @@ que es lo que buscara en la página, como navegara.
 
 https://www.figma.com/proto/VGoesvhLdau142QddK0IHs/RyM-Prototipo-de-Alta-calidad?node-id=1%3A2&scaling=scale-down
 
-<img src ="https://66.media.tumblr.com/9d9cabf46b0f0e09e7137fb6b57888cc/tumblr_pxjgkixNf61yu9kbco1_540.jpg">
+<img src ="https://66.media.tumblr.com/ec951ff938c077d5a81ab052b01fbbbf/tumblr_py94lbHrPT1yu9kbco1_1280.jpg">
 
 <li> Entrevista a Usuario </li>
 
@@ -152,7 +152,9 @@ Y Para finalizar
 <li>AUDIO ENTREVISTA</li>
 
 https://drive.google.com/open?id=1krwc_rWIaN5wEsa82xzAw0iAz9kRPung
+
 https://drive.google.com/open?id=1fH2BykW8dLTmo9wz0WyqQXjEHGriW7KM
+
 https://drive.google.com/open?id=1559BUwSXAiibAdrybzTpj6sJKN0Do_ok
 
 
@@ -168,13 +170,22 @@ https://drive.google.com/open?id=1559BUwSXAiibAdrybzTpj6sJKN0Do_ok
 
 Ya aclarada la necesidad del usuario se pasa a crear la página web.
 
-Se crean 3 HTMLS, 
-Index.html : lleva directamente al trabajo de DATA de RyM donde solo logro mostrar los personajes al cliente (objetivo no cumplido)
-Index.html2 : Lleva al Usuario a lo mas solicitado donde se habla de la serie en general y los autores.
-Index. html3 : Se crea un video donde se resumen las tres temporadas, este esta hecho a traves de HTML, CSS PARA SU DISEÑO Y JS para su interaccion con el usuario.
+Se crean 3 HTMLS:
 
-Css: Contiene responsive para iphone y para tablet.
-JS: contiene la data de los personajes, muestra los personajes a los usuarios.
+Index.html : Mantiene la estructura básica, con un header siempre visible que mantiene links para diferentes paginas oficiales de la serie y un boton en el nombre de la pagina que redirecciona desde cualquier lugar al home, tambien tiene textos introductorios, imagenes y sus respectivos botones de interaccion hacia otras páginas.
+Lleva directamente al trabajo de DATA de RyM donde solo logro mostrar los personajes al cliente.
 
+Index.html2 : Lleva al Usuario a lo mas solicitado donde se habla de la serie en general y los autores. Se añaden textos e imagenes.
 
+Index. html3 : Se crea un video donde se resumen las tres temporadas, creado con html y JS donde el usuario puede retroceder, avanzar, poner play o pausar el video. este esta hecho a traves de HTML, CSS PARA SU DISEÑO Y JS para su interaccion con el usuario.
 
+Css: Contiene responsive para iphone y para tablet, sostiene el diseño en general de la página, colocando los botones en el lugar correspondiente.
+
+JS: contiene la data de los personajes, muestra los personajes a los usuarios, uso de botones en video de HTML3
+
+<li>IMAGENES DE DISEÑO FINAL Y PROPUESTA ENTREGADA</li>
+
+<img src ="https://66.media.tumblr.com/4b55b4189a77d07bfdeb0981a612ff9d/tumblr_py9dy15uTD1yu9kbco1_1280.jpg">
+<img src ="https://66.media.tumblr.com/467175093b20ad98fdab74bb442133a7/tumblr_py9dy15uTD1yu9kbco2_1280.jpg">
+<img src ="https://66.media.tumblr.com/1efc1b498984858282969ded7ae6beba/tumblr_py9dy15uTD1yu9kbco3_1280.jpg">
+<img src ="https://66.media.tumblr.com/192a9bdcd4fae43aaaf8817f5e4d5396/tumblr_py9dy15uTD1yu9kbco4_1280.jpg">
