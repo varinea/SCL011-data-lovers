@@ -1,12 +1,13 @@
 filterRyM = {character: (RyM) => {
   //(character_RyM) conecto con filter para poder 
 
-  let resultCharacter; // Creo la variable para que recorra for.
-  for (let i = 0; i < RyM.length; i++) { //For recorrer       para concatenar ``
+  let resultCharacter; // Creo la variable donde recorrera for.
+  for (let i = 0; i < RyM.length; i++) { //For recorrera la data desde 0 leyendola toda y llendo una por una. 
+    // para concatenar ``
 
-  
-    resultCharacter +=
-    `   
+    resultCharacter += // a la variable le digo que sigue siendo igual y ademas es todo lo que agregare
+     //concateno y tomo los datos que necesito de la data
+    `      
     <div class="textRyM2"> 
       <h2>CONOCE A TODOS LOS PERSONAJES</h2>
       <h1>de Rick and Morty</h1>
@@ -24,11 +25,8 @@ filterRyM = {character: (RyM) => {
         </div>    
         </div>
         `
-      
-    document.getElementById("root").innerHTML = resultCharacter;
+    document.getElementById("root").innerHTML = resultCharacter;  // ahora llamo al id root de html y con innerHTML hago que se lea mi variable.
 
   };
 }
 };
-
-filterRyM = filterRyM;
