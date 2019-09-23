@@ -29,9 +29,3 @@ let RyM = RICKANDMORTY.results;
 document.getElementById("showMeTheCharacters").addEventListener("click", () => {filterRyM.character(RyM);})
  /*Desde el HTML llamo al boton y le digo que al hacer click comience la función
   creo una variable, objeto y llama a la variable de RyM (La cual contiene la info de data) */
-
-
-
-
-
-

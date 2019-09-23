@@ -109,7 +109,7 @@ nav {
     padding-bottom: 1%;
     padding-top: 10%; 
     color: #FFFDFD;
-    position: left;
+ 
   
 }
 .charData {
@@ -311,7 +311,7 @@ footer {
      
       font-size: 15px;
       left: 95px;   /* posicionamiento de los objetos desde lado izquierdo */
-      top: 100px;
+      top: 100%;
      }
 
      .charData {

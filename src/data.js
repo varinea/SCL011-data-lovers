@@ -1,5 +1,5 @@
 filterRyM = {character: (RyM) => {
-  //(character_RyM) conecto con filter para poder 
+  //(character_RyM) llamo a main para la data.
 
   let resultCharacter; // Creo la variable donde recorrera for.
   for (let i = 0; i < RyM.length; i++) { //For recorrera la data desde 0 leyendola toda y llendo una por una. 
@@ -13,7 +13,7 @@ filterRyM = {character: (RyM) => {
       <h1>de Rick and Morty</h1>
       <br><br>
       </div>
-
+      
       <div class="liItem">
       <br><br><br><br><br><br><br>
         <img class="imgrym" src="${RyM[i].image}">
@@ -30,3 +30,4 @@ filterRyM = {character: (RyM) => {
   };
 }
 };
+
