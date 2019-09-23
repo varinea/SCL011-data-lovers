@@ -322,20 +322,19 @@ footer {
      }
 
      .buttoncharacter {
-      top: 100%;
+      top: 110%;
       left: 8%;
-
      }
 
      .buttoncreators {
-      top: 200%;
+      top: 220%;
       left: 10%;
      }
 
      .buttonvideo {  
         position: absolute;
-        left: 30%;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 260%   /* posicionamiento de altura, que no se toque con header */
+        left: 35%;   /* posicionamiento de los objetos desde lado izquierdo */
+        top: 280%   /* posicionamiento de altura, que no se toque con header */
    
        }
 
@@ -357,7 +356,7 @@ footer {
      footer {
       position: absolute;
       line-height : 20px;
-      text-align: center;
+      text-align: left;
       position: center;   /* posicionamiento de los objetos desde lado izquierdo */
       top: 2400px;   /* posicionamiento de altura, que no se toque con header */
       }
@@ -393,127 +392,4 @@ footer {
      
       }
     
-}
-
-
-@media screen and (max-width : 480px) {    /* ------PANTALLA PARA SMARTPHONE--- */
-     
-      body {
-        background: black;
-       }
-       
-       .loGo {
-        width: 100%;      
-        background: transparent;
-
-       }
-       .textRyM{
-        width: 80%;  
-        font-size: 15px;
-        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px; 
-        text-align: justify;  
-       }
-
-       .textRyM2{
-         
-        font-size: 15px;
-        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 70px;  
-        text-align: justify; 
-       }
-
-       .textRyM3{
-        width: 80%;  
-        font-size: 15px;
-        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px;  
-        text-align: justify; 
-       }
-
-       .textRyM4{
-        width: 80%;  
-        font-size: 15px;
-        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 100px;  
-        text-align: justify; 
-       }
-
-       .liItem {
-       
-        font-size: 15px;
-        left: 95px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 100px;
-       }
-
-       .charData {
-        width: 80%;  
-        font-size: 15px;
-        left: 75px;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 300px;
-       }
-
-       .buttoncharacter {
-        top: 750px;
-        left: 8%;
-       
-       }
-
-       .buttoncreators {
-        top: 1500px;
-        left: 10%;
-       }
-
-       video {
-        width:70%;
-        left: 15%;
-        top: 30%;
-        }
-    
-       .buttonVideo {  
-         position: absolute;
-         left: 15%;   /* posicionamiento de los objetos desde lado izquierdo */
-         top: 65%   /* posicionamiento de altura, que no se toque con header */
-    
-        }
-
-       footer {
-        position: absolute;
-        line-height : 20px;
-        text-align: center;
-        position: center;   /* posicionamiento de los objetos desde lado izquierdo */
-        top: 2400px;   /* posicionamiento de altura, que no se toque con header */
-        }
-
-       .imagenPag2 {
-        width: 100%;
-
-        }
-
-        .link1 {
-            width:50%;
-            left: 45%;
-            position: absolute;
-            top: 3000px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 15px;
-            color: #FFFDFD;
-            margin-bottom: 20px; /*bordes de abajo de objeto*/
-            font-weight: 1000;
-          
-        }
-        
-        .link2 {
-            width:50%;
-            left: 45%;
-            position: absolute;
-            top: 600px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 15px;
-            color: #FFFDFD;
-            margin-bottom: 10px; /*bordes de abajo de objeto*/
-            font-weight: 1000;
-       
-        }
-      
 }

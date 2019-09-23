@@ -14,7 +14,7 @@ filterRyM = {character: (RyM) => {
       </div>
 
       <div class="liItem">
-      <br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br>
         <img class="imgrym" src="${RyM[i].image}">
         <div class="charData"> 
         <p class="textrym1">  ${RyM[i].name}</p>

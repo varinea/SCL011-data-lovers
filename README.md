@@ -70,6 +70,11 @@ Prototipo de baja fidelidad.
 <img src ="https://66.media.tumblr.com/a49d349eba1c0869f09218ffabcdac68/tumblr_pxjgkixNf61yu9kbco2_1280.jpg">
 
 
+<h2> Wireframe III Básico </h2>
+Prototipo de baja fidelidad.
+
+<img src ="https://66.media.tumblr.com/c328db1fb633ae67a6e955da65b50623/tumblr_py9k94zE2S1yu9kbco1_1280.jpg">
+
 Creando los prototipos definimos bien al usuario para luego pasar a realizar el prototipo de alta fidelidad.
 
 <li>HISTORIA DE USUARIO 1:</li>
@@ -105,7 +110,7 @@ Basandonos en la encuesta en google el usuario no muestra un gran interes en ver
 El link a continuación nos muestra un diseño de pagina web creado en Figma para poder entrevistar a nuestro Usuario y ver detalladamente
 que es lo que buscara en la página, como navegara.
 
-https://www.figma.com/proto/VGoesvhLdau142QddK0IHs/RyM-Prototipo-de-Alta-calidad?node-id=1%3A2&scaling=scale-down
+https://www.figma.com/proto/0XaQw6jWTcC1cAEkD0bBZu/Prototipo-de-Alta-calidad-v2?node-id=2%3A2&scaling=scale-down-width
 
 <img src ="https://66.media.tumblr.com/ec951ff938c077d5a81ab052b01fbbbf/tumblr_py94lbHrPT1yu9kbco1_1280.jpg">
 
