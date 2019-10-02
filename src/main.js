@@ -1,6 +1,4 @@
-
 /*___________________________VIDEO_____________________________________*/
-
 
 var RyMVideo = document.getElementById("videoMyR"); /*Se define la variable para llamar al video de html */
         function playPause() { /* se crea una funcion playpause para especificar si el video se pausara o se ejecutara en el navegador */
@@ -12,6 +10,8 @@ var RyMVideo = document.getElementById("videoMyR"); /*Se define la variable para
         function stop() {  /* aqui defino con la funcion stop, que al momento de detener el video este se devolvera al minuto 0 */
             videoMyR.pause();
             videoMyR.currentTime = 0;
+              
+            
         }
         function skip(value) {   /*y con la funcion skip es para adelantar y retroceder el video */
             videoMyR.currentTime += value;
@@ -20,117 +20,71 @@ var RyMVideo = document.getElementById("videoMyR"); /*Se define la variable para
 /*___________________________PERSONAJES_____________________________________*/
 
 
-let RyM = window.RICKANDMORTY.results;
-/*Le doy nombre a mi variable, la cuál tiene la función de llamar la data de rickandmorty.js resultados. */
+const RyM= window.RICKANDMORTY.results; //Primero Creo mi variable la cual llamara a la data de Api rickandmorty.js
+                                        //Window se agrega al final para que todas mis archivos sean unificados.
+                                      
+const resultCharacter = document.getElementById("root"); // Creo una constante donde donde llamo a mi id "root" 
 
-document.getElementById("showMeTheCharacters").addEventListener("click", () => {filterRyM.character(RyM);})
- /*Desde el HTML llamo al boton y le digo que al hacer click comience la función
-  creo una variable, objeto y llama a la variable de RyM (La cual contiene la info de data) */
-  //container.style.display = 'block';
-
-  filterRyM = {character: (RyM) => {
-    //(character_RyM) llamo a main para la data.
+function mostrarData(RyM){ //creo una funcion la cual llamo mostrarData que llama a mi variable principal RyM
+for (let i = 0; i < RyM.length; i++) { //CREO UN FOR para que recorra mi data 
+  resultCharacter.innerHTML +=  // llamando a la constante creada anteriormente con innerHTML imprimo en mi página todo de la función.
+  `
+  <div class="textRyM2"> 
+  <h2>CONOCE A TODOS LOS PERSONAJES</h2>
   
-    let resultCharacter; // Creo la variable donde recorrera for.
-    for (let i = 0; i < RyM.length; i++) { //For recorrera la data desde 0 leyendola toda y llendo una por una. 
-      // para concatenar ``
-  
-      resultCharacter += // a la variable le digo que sigue siendo igual y ademas es todo lo que agregare
-       //concateno y tomo los datos que necesito de la data
-     /*container.innerHTML +=*/ `<div class="textRyM2"> 
-        <h2>CONOCE A TODOS LOS PERSONAJES</h2>
-        <h1>de Rick and Morty</h1>
-        <br><br>
-        </div>
-        
-        <div class="liItem">
-        <br><br><br><br><br><br><br>
-          <img class="imgrym" src="${RyM[i].image}">
-          <div class="charData"> 
-          <p class="textrym1">  ${RyM[i].name}</p>
-          <p class="textrym1">  ${RyM[i].status}</p>
-          <p class="textrym1">  ${RyM[i].species}</p>
-          <p class="textrym1">  ${RyM[i].origin.name}</p>
-          </div>    
-          </div>
-          `
-      document.getElementById("root").innerHTML = resultCharacter;  
-      // ahora llamo al id root de html y con innerHTML hago que se lea mi variable.
-  
-    };
-  }
-  };
+  <h1>de Rick and Morty</h1>
+  <br><br>
+  </div>
+
+  <div class="liItem">
+  <br><br><br><br><br><br><br>
+    <img class="imgrym" src="${RyM[i].image}">
+    <div class="charData"> 
+    <p class="textrym1">  ${RyM[i].name}</p>
+    <p class="textrym1">  ${RyM[i].status}</p>
+    <p class="textrym1">  ${RyM[i].species}</p>
+    <p class="textrym1">  ${RyM[i].origin.name}</p>
+    </div>    
+    </div>
+    `
+}
+}
+console.log(RyM);
+
+const showmethecharacters = document.getElementById("showMeTheCharacters"); // Creo variable la cual llama a mi boton de HTML
+
+showmethecharacters.addEventListener("click", () => { // Con la variable creada anteriormente digo que al momento que el usuario haga click 
+document.getElementById("root").innerHTML = " ";  // Llame a mi id root y que imprima con innerHTML 
+mostrarData(RyM); // Finalmente llamo a mostrarData y (mi variable de la data principal)
+});
+
+/*___________________________FILTRAR VIVOS__________________________________*/
+
+const showmealive = document.getElementById("showMeAlive")
+showmealive.addEventListener("click", () => {
+  let showmealiveP =document.getElementById("showMeAlive").value;
+  let printshowmealiveP = window.RyM.filterStatusAlive(RyM,showmealiveP);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printshowmealiveP);
+  });
 
 
-/*___________________________VIVOS_____________________________________*/
+/*___________________________FILTRAR MUERTOS__________________________________*/
 
-const dataFilter= window.data.filterStatusAlive(RyM);
-  
-const btnStatusAlive = document.getElementById("showMeAlive");
+const showmedead = document.getElementById("showMeDead")
+showmedead.addEventListener("click", () => {
+  let showmeadeadP =document.getElementById("showMeDead").value;
+  let printshowmedeadP = window.RyM.filterStatusDead(RyM,showmeadeadP);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printshowmedeadP);
+  });
 
-  btnStatusAlive.addEventListener("click", () => {
+/*________________________FILTRAR DESCONOCIDOS__________________________________*/
 
-    let resultALIVE; // Creo la variable donde recorrera for.
-    for (let i = 0; i < dataFilter.length; i++) { //For recorrera la data desde 0 leyendola toda y llendo una por una. 
-      // para concatenar ``
-  
-      resultALIVE += // a la variable le digo que sigue siendo igual y ademas es todo lo que agregare
-       //concateno y tomo los datos que necesito de la data
-
-    `      
-    <div class="textRyM2"> 
-      <h2>PERSONAJES VIVOS</h2>
-      <h1>de Rick and Morty</h1>
-      <br><br>
-      </div>
-      
-      <div class="liItem">
-      <br><br><br><br><br><br><br> 
-        <img class="imgrym" src="${RyM[i].image}">
-        <div class="charData"> 
-        <p class="textrym1">  ${RyM[i].name}</p>
-        <p class="textrym1">  ${RyM[i].status}</p>
-      
-        </div>    
-        </div>
-        `
-
-   document.getElementById("root").innerHTML = resultALIVE;
-}});
-
-
-/*___________________________MUERTOS_____________________________________*/
-
-const dataFilterDead= window.data.filterStatusDead(RyM);
-  
-const btnStatusDead = document.getElementById("showMeDead");
-
- btnStatusDead.addEventListener("click", () => {
-
-    let resultDead; // Creo la variable donde recorrera for.
-    for (let i = 0; i < dataFilterDead.length; i++) { //For recorrera la data desde 0 leyendola toda y llendo una por una. 
-      // para concatenar ``
-  
-      resultDead += // a la variable le digo que sigue siendo igual y ademas es todo lo que agregare
-       //concateno y tomo los datos que necesito de la data
-
-    `      
-    <div class="textRyM2"> 
-      <h2>PERSONAJES MUERTOS</h2>
-      <h1>de Rick and Morty</h1>
-      <br><br>
-      </div>
-      
-      <div class="liItem">
-      <br><br><br><br><br><br><br>
-        <img class="imgrym" src="${RyM[i].image}">
-        <div class="charData"> 
-        <p class="textrym1">  ${RyM[i].name}</p>
-        <p class="textrym1">  ${RyM[i].status}</p>
-      
-        </div>    
-        </div>
-        `
-
-   document.getElementById("root").innerHTML = resultDead;
-}});
+const showmeUnknown = document.getElementById("showMeunknown")
+showmeUnknown.addEventListener("click", () => {
+  let showmeaUnknowP =document.getElementById("showMeunknown").value;
+  let printshowmeUnknowP = window.RyM.filterStatusUnknown(RyM,showmeaUnknowP);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printshowmeUnknowP);
+  });
