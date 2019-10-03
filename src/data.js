@@ -15,7 +15,7 @@ filterStatusAlive: (RyM) => { // Con la funcion estoy llamando a mi data RyM y
 
 filterStatusDead: (RyM) => {
   const filterDead = RyM.filter(element => { 
-  return element.status.includes("Dead") // Ahora creo una variable para que filtre mi data y acceda a "Alive".
+  return element.status.includes("Dead") 
 });
   return filterDead;
  
@@ -26,9 +26,45 @@ filterStatusDead: (RyM) => {
 
 filterStatusUnknown: (RyM) => {
   const filterUnknow = RyM.filter(element => { 
-  return element.status.includes("unknown") // Ahora creo una variable para que filtre mi data y acceda a "Alive".
+  return element.status.includes("unknown") 
 });
   return filterUnknow;
+ 
+},
+
+
+/*___________________________Genero Femenino_____________________________________*/
+
+
+filterGenderFem: (RyM) => {
+  const filterFerm = RyM.filter(element => { 
+  return element.gender.includes("Female") 
+});
+
+  return filterFerm;
+ 
+},
+
+/*___________________________Genero Masculino_____________________________________*/
+
+
+filterGenderMale: (RyM) => {
+  const filterMale = RyM.filter(element => { 
+  return element.gender.includes("Male") 
+});
+
+  return filterMale;
+ 
+},
+
+/*___________________________Genero Desconocido_____________________________________*/
+
+filterGenderUnknown: (RyM) => {
+  const filterUnknown = RyM.filter(element => { 
+  return element.gender.includes("unknown") 
+});
+
+  return filterUnknown;
  
 },
 

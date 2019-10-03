@@ -26,7 +26,7 @@ const RyM= window.RICKANDMORTY.results; //Primero Creo mi variable la cual llama
 const resultCharacter = document.getElementById("root"); // Creo una constante donde donde llamo a mi id "root" 
 
 function mostrarData(RyM){ //creo una funcion la cual llamo mostrarData que llama a mi variable principal RyM
-for (let i = 0; i < RyM.length; i++) { //CREO UN FOR para que recorra mi data 
+for (let i = 0; i < RyM.length; i++) { //Creo un For para que recorra mi data 
   resultCharacter.innerHTML +=  // llamando a la constante creada anteriormente con innerHTML imprimo en mi página todo de la función.
   `
   <div class="textRyM2"> 
@@ -87,4 +87,36 @@ showmeUnknown.addEventListener("click", () => {
   let printshowmeUnknowP = window.RyM.filterStatusUnknown(RyM,showmeaUnknowP);
   document.getElementById("root").innerHTML = " ";  
   mostrarData(printshowmeUnknowP);
+  });
+
+
+  /*________________________FILTRAR MUJERES__________________________________*/
+
+const showmeGenderFem = document.getElementById("showMeTheGenderFem")
+showmeGenderFem.addEventListener("click", () => {
+  let showmeaGenderFem_dos =document.getElementById("showMeTheGenderFem").value;
+  let printGenderFem = window.RyM.filterGenderFem(RyM,showmeaGenderFem_dos);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printGenderFem);
+  });
+
+  /*________________________FILTRAR HOMBRES__________________________________*/
+
+const showmeGenderMale = document.getElementById("showMeTheGenderMale")
+showmeGenderMale.addEventListener("click", () => {
+  let showmeaGenderMale_dos =document.getElementById("showMeTheGenderMale").value;
+  let printGenderMale = window.RyM.filterGenderMale(RyM,showmeaGenderMale_dos);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printGenderMale);
+  });
+
+
+   /*________________________FILTRAR HOMBRES__________________________________*/
+
+const showmeGenderUnknow = document.getElementById("showMeTheGenderunknown")
+showmeGenderUnknow.addEventListener("click", () => {
+  let showmeaGenderunknown_dos =document.getElementById("showMeTheGenderunknown").value;
+  let printGenderUnknown = window.RyM.filterGenderUnknown(RyM,showmeaGenderunknown_dos);
+  document.getElementById("root").innerHTML = " ";  
+  mostrarData(printGenderUnknown);
   });
